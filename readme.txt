@@ -26,8 +26,7 @@ The output of mode 2 (verbose) will include the following for each entry within 
 Timestamps are presented in UTC 0.00 at the nanosec precision. Format is YYYY-MM-DD HH:MM:SS:MSMSMS:NSNSNSNS 
 
 
-Syntax
-
+Syntax:
 Example printing verbose output from the hidden system folder C:\$Extend 
 RawDir.exe 1 C:\$Extend 
 
@@ -36,6 +35,9 @@ Example printing compact output on the root of the C: volume
 RawDir.exe 2 C:\ 
 
 
-Limitation
-
+Limitation:
 Will not show files marked as deleted. 
+
+
+Changelog
+v1.0.0.2: Added support for MFT record sizes of 4096 bytes.
