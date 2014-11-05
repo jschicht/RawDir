@@ -40,4 +40,5 @@ Will not show files marked as deleted.
 
 
 Changelog
+v1.0.0.3: Fixed bug when $MFT itself contained an $ATTRIBUTE_LIST. Fixed bug with handling records that was split across dataruns. Increased initialization size of array for runs and vcns which caused it to crash with extreme fragmentation.
 v1.0.0.2: Added support for MFT record sizes of 4096 bytes.
